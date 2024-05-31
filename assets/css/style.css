@@ -518,21 +518,21 @@ main {
 }
 
 /*-----------------------------------*\
-  #ABOUT
+  #Home
 \*-----------------------------------*/
 
-.about .article-title {
+.home .article-title {
   margin-bottom: 15px;
 }
 
-.about-text {
+.home-text {
   color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
 
-.about-text p {
+.home-text p {
   text-align: justify;
   margin-bottom: 15px;
   text-transform: capitalize;
@@ -931,7 +931,7 @@ main {
 }
 
 /*-----------------------------------*\
-  #PORTFOLIO
+  #PROJECTS
 \*-----------------------------------*/
 
 .filter-list {
@@ -1091,6 +1091,7 @@ main {
 .project-title,
 .project-category {
   margin-left: 10px;
+  text-align: center;
 }
 
 .project-title {
@@ -1344,7 +1345,7 @@ textarea.form-input::-webkit-resizer {
   }
 
   /**
-   * #PORTFOLIO, BLOG 
+   * #PROJECTS, BLOG 
    */
 
   .project-img,
@@ -1492,14 +1493,14 @@ textarea.form-input::-webkit-resizer {
   }
 
   /**
-   * #ABOUT
+   * #Home
    */
 
-  .about .article-title {
+  .home .article-title {
     margin-bottom: 20px;
   }
 
-  .about-text {
+  .home-text {
     margin-bottom: 40px;
   }
 
@@ -1631,7 +1632,7 @@ textarea.form-input::-webkit-resizer {
   }
 
   /**
-   * #PORTFOLIO, BLOG
+   * #PROJECTS, BLOG
    */
 
   .project-img,
@@ -1715,7 +1716,7 @@ textarea.form-input::-webkit-resizer {
   }
 
   /**
-   * ABOUT
+   * Home
    */
 
   /* testimonials modal */
@@ -1730,7 +1731,7 @@ textarea.form-input::-webkit-resizer {
   }
 
   /**
-   * PORTFOLIO
+   * PROJECTS
    */
 
   .article-title {
@@ -1764,7 +1765,7 @@ textarea.form-input::-webkit-resizer {
     color: var(--orange-yellow-crayola);
   }
 
-  /* portfolio and blog grid */
+  /* PROJECTS and BLOG Grid */
 
   .project-list,
   .blog-posts-list {
@@ -1854,7 +1855,7 @@ textarea.form-input::-webkit-resizer {
   }
 
   /**
-   * ABOUT
+   * home
    */
 
   /* service */
@@ -1877,7 +1878,7 @@ textarea.form-input::-webkit-resizer {
   }
 
   /**
-   * PORTFOLIO
+   * PROJECTS
    */
 
   .project-list {
